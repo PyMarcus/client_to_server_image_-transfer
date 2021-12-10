@@ -82,7 +82,7 @@ class Client:
         msg = f"{socket.gethostname()} - conectando...".encode()
         while True:
             # cp_client.send(msg)
-            with open('/home/marcus/PycharmProjects/webscrapping_js/capt.jpg', 'rb') as f:  # PycharmProjects/webscrapping_js/base.py
+            with open('path', 'rb') as f:  # PycharmProjects/webscrapping_js/base.py
                 file = f.read()
                 tcp_client.sendall(file)
             print("Imagem enviada!")
